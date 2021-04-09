@@ -23,20 +23,22 @@ You are **responsible** for scheduling time with your squad to seek approval for
 ## Project Description
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
-
+ I want something clean but shows my personality. I'm super colorful and all over the place, so I want something very light with a splash 
+ of colors.  Thinking maybe something with cards and lavender(https://www.homedepot.com/b/Paint-Ideas/Purple/top) 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+Include link to your google sheet here.  Here is the sample 
+(https://docs.google.com/spreadsheets/d/1o8csOi1mPTHanpVcBPrFC2RY8TNkmT4uDr35A-CZnSs/edit#gid=0) 
 
 ## Portfolio I want to Emulate
 
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 
 Link To Site  | One Thing I'd Like To Incorporate | 
-| ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)| landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+| [awwards.com/sites/prb-architects] | (https://www.awwwards.com/sites/prb-architects)| slides of work/the nav
+| [nolan-demo.squarespace.com](https://nolan-demo.squarespace.com/)| simplicity/ the style....I like this a lot but I would pick a brighter background (lavender)
+|[aarongrieve.co.uk](https://www.aarongrieve.co.uk/) | If I could work out how to follow the line into the bright workspace that is what i love the most |
+
 
 ---
 
@@ -44,8 +46,9 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://ibb.co/PTNgKrf)
+- [Desktop](https://ibb.co/8xr2wjM)
+- [Tablet](https://ibb.co/4fwd9bJ)
 
 Wireframing Resources:
 
@@ -64,6 +67,8 @@ Now draw a vertical line on the y axis.  The top of this line should have `High`
 Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
 
 Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
+
+(https://ibb.co/j8ZpGVq)
 
 ### MVP/PostMVP - 5min
 
