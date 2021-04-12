@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+body{
+    background-color:#E2EAEE ;
+}
+nav ul{
+    list-style: none;
+}
+h1{
+    font-family: sintony;
+}
