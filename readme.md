@@ -1,8 +1,8 @@
 # Project Overview
 
-**PROJECT NAME:** dfadfadfsdfadf
+**PROJECT NAME:** Portfolio Project
 
-**PROJECT AUTHOR:** lkjlkjljlkadfsd
+**PROJECT AUTHOR:** Teddi Manibusan
 
 ## Project Schedule
 
@@ -22,7 +22,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
  I want something clean but shows my personality. I'm super colorful and all over the place, so I want something very light with a splash 
  of colors.  Thinking maybe something with cards and lavender(https://www.homedepot.com/b/Paint-Ideas/Purple/top) 
 ## Google Sheet
@@ -83,7 +82,12 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Anything else that is not MVP 
+SVG paths/ the website from aaron he uses this a lot
+Make my own icon
+Animations 
+slide transitions
+
 
 ## Functional Components
 
