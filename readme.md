@@ -82,7 +82,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP 
 
-- Anything else that is not MVP 
+
 SVG paths/ the website from aaron he uses this a lot
 Make my own icon
 Animations 
