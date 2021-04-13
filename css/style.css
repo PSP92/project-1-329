@@ -1,15 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
-nav {
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root {
+    --title:'Sintony', sans-serif;
+    --first:#E2EAEE; /*Dove White */
+    --second: #C1C2D7;/*Foxglove*/
+    --third: #BFB9BD;/*Standing Ovation*/
+    --fourth: #D7D0E1;/*Fanciful*/
+    --fifth:#434655;
+}
+header nav {
     display: flex;
     justify-content: space-between;
-    
+    color: var(--fifth);
+    background-color: var(--second);
+    padding: 12px;
+    margin: 10px auto;
 }
 body{
-    background-color:#E2EAEE ;
+    background-color:var(--first);
 }
 nav ul{
     list-style: none;
 }
 h1{
-    font-family: sintony;
+    font-family: var(--title);
+    font-weight: bold;
 }
