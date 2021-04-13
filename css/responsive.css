@@ -1,16 +1,21 @@
 /* come back to this */
 
 /*mobile*/
-/* @media screen and (max-width:425px){
-    .navbar{
+@media screen and (min-width:0) and (max-width:425px){
+    nav i.fas.fa-bars { 
         display: block;
-}
-    .navbar{
+    }
+    nav ul li{
         display: none;
     }
+
+}
+@media screen and (min-width: 768px)
+div  {
+    flex-direction: row;
+    flex-wrap: wrap;
 }
     
-/*     
     
     /*tablet*/
 /* @media screen and (min-width: 768px) {

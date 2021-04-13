@@ -20,13 +20,16 @@ header nav {
     padding: 12px;
     margin: 10px auto;
 }
+
 body{
     background-color:var(--first);
 }
-nav ul{
+nav ul li{
     list-style: none;
+    display:none;
 }
-h1{
+h1, h2, .p1 , .p2, .p3, .p4{
     font-family: var(--title);
-    font-weight: bold;
+    font-weight:bolder;
+    color: var(--fifth);
 } 
