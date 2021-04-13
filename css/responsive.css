@@ -10,25 +10,25 @@
     }
 
 }
-@media screen and (min-width: 768px)
-div  {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-    
-    
+
     /*tablet*/
-/* @media screen and (min-width: 768px) {
-      .navbar {
-        display: none;
+@media screen and (min-width:426px) {
+nav i.fas.fa-bars {
+   display: none;
+
+}
+}
+/*desktop */
+@media screen and (min-width:1024px) {
+    nav i.fas.fa-bars {
+       display: none;
+    
     }
 }
 
 
+
+
+
     
-/*desktop */
-/* @media screen and (min-width: 1024px) {
-    .navbar {
-        flex-direction: row;
-    }
-}   */ 
+
