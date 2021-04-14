@@ -13,17 +13,11 @@
 
     /*tablet*/
 @media screen and (min-width:426px) {
-nav i.fas.fa-bars {
-   display: none;
-
-}
+   
 }
 /*desktop */
 @media screen and (min-width:1024px) {
-    nav i.fas.fa-bars {
-       display: none;
-    
-    }
+   
 }
 
 
