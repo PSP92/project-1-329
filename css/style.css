@@ -44,7 +44,10 @@ footer {
     padding-top: 58px;
 }
 /* MAIN STYLES */
-
-
+#img{
+    width: 250px;
+    height: 300px;
+    border-style: 5px solid var(--fifth);
+}
 
 
