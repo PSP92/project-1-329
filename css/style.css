@@ -28,14 +28,31 @@ nav ul li{
     list-style: none;
     display:none;
  }
-h1, h2, .p1 , .p2, .p3, .p4, main{
+/* h1, h2, .p1 , .p2, .p3, .p4, main{ */
+    h2,.about{
     font-family: var(--title);
     font-weight:bolder;
-    color: var(--fifth);
+    color: white;
     display: flex; 
     flex-direction: column;
     align-items: center; 
+  
 } 
+h1{
+    font-family: var(--title);
+    font-weight:bolder;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    color:#434655;
+}
+.aboutMe{
+    background-image: url(https://media.wired.com/photos/5e6bfb4fb836a60008b8122e/master/w_2560%2Cc_limit/photo_space_catharsis_4_hs-2015-02-a-hires.jpg);
+    background-size: auto;
+    overflow:hidden;
+    padding: 35px;
+    margin: 10px auto;
+}
 div h2{
     font-size: 15px;
     padding-bottom: 65px;
@@ -45,12 +62,10 @@ footer {
 }
 /* MAIN STYLES */
 img{
-    width: 200px;
+    width: 300px;
     height: 200px;
+    overflow:hidden;
     /* border-style: 5px solid var(--fifth); */
-}
-main my-card{
-    background-color: ;
 }
 
 

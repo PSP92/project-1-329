@@ -6,7 +6,7 @@
         display: block;
     }
     nav ul li{
-        display: none;
+        display: hidden;
     }
 
 }
