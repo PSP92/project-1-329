@@ -44,10 +44,13 @@ footer {
     padding-top: 58px;
 }
 /* MAIN STYLES */
-#img{
-    width: 250px;
-    height: 300px;
-    border-style: 5px solid var(--fifth);
+img{
+    width: 200px;
+    height: 200px;
+    /* border-style: 5px solid var(--fifth); */
+}
+main my-card{
+    background-color: ;
 }
 
 
