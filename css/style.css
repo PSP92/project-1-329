@@ -1,88 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sintony&display=swap");
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
-    --title:'Sintony', sans-serif;
-    --first:#E2EAEE; /*Dove White */
-    --second: #C1C2D7;/*Foxglove*/
-    --third: #BFB9BD;/*Standing Ovation*/
-    --fourth: #D7D0E1;/*Fanciful*/
-    --fifth:#434655;
+  --title: "Sintony", sans-serif;
+  --first: #e2eaee; /*Dove White */
+  --second: #c1c2d7; /*Foxglove*/
+  --third: #bfb9bd; /*Standing Ovation*/
+  --fourth: #d7d0e1; /*Fanciful*/
+  --fifth: #434655;
 }
 header nav {
-    display: flex;
-    justify-content: space-between;
-    color: var(--fifth);
-    background-color: var(--second);
-    padding: 12px;
-    margin: 7px auto;
+  display: flex;
+  justify-content: space-between;
+  color: var(--fifth);
+  background-color: var(--second);
+  padding: 12px;
+  margin: 7px auto;
 }
 
-body{
-    background-color:var(--first);
+body {
+  background-color: var(--first);
 }
-nav ul li{
-    list-style: none;
-    display:none;
- }
+nav ul li {
+  list-style: none;
+  display: none;
+}
 /* h1, h2, .p1 , .p2, .p3, .p4, main{ */
-    h2,.about{
-    font-family: var(--title);
-    font-weight:bolder;
-    color: white;
-    display: flex; 
-    flex-direction: column;
-    align-items: center; 
-  
-} 
-h1{
-    font-family: var(--title);
-    font-weight:bolder;
-    display: flex; 
-    flex-direction: column;
-    align-items: center; 
-    color:#434655;
+h2,
+.about {
+  font-family: var(--title);
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.aboutMe{
-    background-image: url(https://media.wired.com/photos/5e6bfb4fb836a60008b8122e/master/w_2560%2Cc_limit/photo_space_catharsis_4_hs-2015-02-a-hires.jpg);
-    background-size: auto;
-    overflow:hidden;
-    padding: 55px auto;
-    margin: 35px auto;
+h1 {
+  font-family: var(--title);
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #434655;
 }
-div h2{
-    font-size: 15px;
-    padding-bottom: 65px;
+.aboutMe {
+  background-image: url(https://media.wired.com/photos/5e6bfb4fb836a60008b8122e/master/w_2560%2Cc_limit/photo_space_catharsis_4_hs-2015-02-a-hires.jpg);
+  background-size: auto;
+  overflow: hidden;
+  padding: 55px auto;
+  margin: 35px auto;
+}
+div h2 {
+  font-size: 15px;
+  padding-bottom: 65px;
 }
 footer {
-    padding-top: 58px;
+  padding-top: 58px;
 }
 /* MAIN STYLES */
-img{
-    width: 300px;
-    height: 200px;
-    overflow:hidden;
-    /* border-style: 5px solid var(--fifth); */
+img {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  /* border-style: 5px solid var(--fifth); */
 }
-section{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: "90%";
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: "90%";
+  background-color: "";
 }
 
 div.resize img {
-    width:80px;
-    height:80px;
-    border-radius: 50%;
-    border: 2px solid var(--fifth);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid var(--fifth);
+}
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  /* background-color: #BFB9BD ; */
+  /* margin: 50px; */
+  /* padding-top: 145px;
+    margin: 145px; */
 }
-form , footer{
-    display: flex;
-    justify-content: center;
-    align-content: flex-end;
+div.contact {
+  background-color: #bfb9bd;
+  
 }
+form {
+  background-color: #bfb9bd;
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  /*padding: 150px;
+  margin: 125px; */
+}
+ 

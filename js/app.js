@@ -5,8 +5,8 @@
 //GET DATA FROM GOOGLE SHEETS
 //////////////////////////////////
 $.ajax("https://spreadsheets.google.com/feeds/list/1o8csOi1mPTHanpVcBPrFC2RY8TNkmT4uDr35A-CZnSs/1/public/full?alt=json")
-//.then for when the data when arrives
-//.then for when the data when arrives
+
+//.then for when the data when arrives run this function
 .then((data) => {
     console.log(data)
     //Map over the data, generate simpler data

@@ -34,25 +34,25 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" 
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
     crossorigin="anonymous"></script>
-    
-    <!-- YOUR CUSTOM CODE -->
+   
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/webcomponents.js" defer></script>
     <script src="js/app.js" defer></script>
   </head>
+
+  <!-- YOUR CUSTOM CODE -->
   <body>
 <header>
   <nav>
     <div class="resize">
       <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.18169-0/p206x206/20914631_10154841785488372_9222398791529103703_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=da31f3&_nc_ohc=uu1qNW0p0AUAX82FW3s&_nc_ht=scontent-sea1-1.xx&tp=6&oh=3f496adc9769868cd30a017c24e73296&oe=609D62A5" alt="Teddi" id="logo">
     </div>
-    <!-- <h1>Teddi Manibusan</h1> -->
       <div id="navbar"></div>
     <ul>
       <li>About Me</li>
       <li>Projects</li>
       <li>Contact</li>
-      <i class="fas fa-bars fa-2x"></i>
+      <!-- <i class="fas fa-bars fa-2x"></i> -->
     </ul>
   </nav>
 </header>
@@ -62,7 +62,7 @@
         qui dolorem ipsum quia dolor sit amet Apollonius of Perga colonies.</h2>
   </div>
   <main>
-    <section>
+    <section> 
     <my-card name="Project One" git="git" live="live" img="https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_birthofstars_0.jpg" alt="Nebula">Project One</my-card>
     <my-card name="Project Two" git="git" live="live" img="https://cdn.mos.cms.futurecdn.net/xVy6QuLYaVw4fH45ZVeuqC.jpg">Project Two</my-card>
     <my-card name="Project Three" git="git" live="live" img="https://apod.nasa.gov/apod/image/1701/IC443HubblePalette2_8x10flat4bColes.jpg">Project Three</my-card>
@@ -80,30 +80,10 @@
     <template-example></template-example>
     
   </body>
+  <div class="contact">
   <footer>Contact me</footer>
   <!-- USED THIS CODE FROM FORMSPREE -->
-  <script>
-    var form = document.getElementById("my-form");
-    
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        status.innerHTML = "Thank you!";
-        form.reset()
-      }).catch(error => {
-        status.innerHTML = "Oops! Something went wrong"
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
-</script>
+  <section>
     <form id="my-form" action="https://formspree.io/f/xoqyvqkn" method="POST">
       <label>Email:</label>
       <input type="email" name="email" />
@@ -112,6 +92,8 @@
       <button id="my-form-button">Submit</button>
       <p id="my-form-status"></p>
     </form>
+  </section>
+    <!-- pop up contact me -->
     <script>
       /* paste this line in verbatim */
       window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
@@ -146,8 +128,5 @@
         }
       });
     </script>
-    
-    
-  </form>
- 
-</html>
+    </div>
+    </html>

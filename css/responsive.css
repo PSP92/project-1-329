@@ -2,30 +2,26 @@
 
 /*mobile*/
 @media screen and (min-width:0) and (max-width:425px){
-    nav i.fas.fa-bars { 
-        display: block;
+    nav ul li {
+        display:block;
     }
-    nav ul li{
-        display: hidden;
-    }
-
-}
+ /* section {display: none !important;}
+} */
 
     /*tablet*/
-@media screen and (min-width:426px) {
+@media screen and (min-width:426px) and (max-width:1439) {
+ div.contact {
+     display: none;
     
-      /* nav ul li  {
-          display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
-        padding: 5px 10px;
-} */
+ }
+}
 
 
 /*desktop */
-@media screen and (min-width:1024px) {
-   
+@media screen and (min-width:1440px) {
+    nav i.fas.fa-bars { 
+        display: none;
+    }
 }
 
 }
