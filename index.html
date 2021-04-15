@@ -18,6 +18,7 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 
     <!-- SHOELACE WEB COMPONENT LIBRARY https://shoelace.style/-->
     <link
@@ -79,5 +80,49 @@
     <template-example></template-example>
     
   </body>
+  <!-- <form id="my-form" action="https://formspree.io/f/xoqyvqkn" method="POST">
+    <label>Email:</label>
+    <input type="email" name="email" />
+    <label>Message:</label>
+    <input type="text" name="message" />
+    <button id="my-form-button">Submit</button>
+    <p id="my-form-status"></p> -->
+    <script>
+      /* paste this line in verbatim */
+      window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    
+      /* customize formbutton below*/     
+      formbutton("create", {
+        action: "https://formspree.io/f/xoqyvqkn",
+        title: "How can we help?",
+        fields: [
+          { 
+            type: "email", 
+            label: "Email:", 
+            name: "email",
+            required: true,
+            placeholder: "your@email.com"
+          },
+          {
+            type: "textarea",
+            label: "Message:",
+            name: "message",
+            placeholder: "What's on your mind?",
+          },
+          { type: "submit" }      
+        ],
+        styles: {
+          title: {
+            backgroundColor: "gray"
+          },
+          button: {
+            backgroundColor: "gray"
+          }
+        }
+      });
+    </script>
+    
+    
+  </form>
   <footer>Contact me</footer>
 </html>
