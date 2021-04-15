@@ -13,8 +13,16 @@
 
     /*tablet*/
 @media screen and (min-width:426px) {
-   
-}
+    
+      /* nav ul li  {
+          display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding: 5px 10px;
+} */
+
+
 /*desktop */
 @media screen and (min-width:1024px) {
    

@@ -50,8 +50,8 @@ h1{
     background-image: url(https://media.wired.com/photos/5e6bfb4fb836a60008b8122e/master/w_2560%2Cc_limit/photo_space_catharsis_4_hs-2015-02-a-hires.jpg);
     background-size: auto;
     overflow:hidden;
-    padding: 35px;
-    margin: 10px auto;
+    padding: 55px auto;
+    margin: 35px auto;
 }
 div h2{
     font-size: 15px;
@@ -67,5 +67,15 @@ img{
     overflow:hidden;
     /* border-style: 5px solid var(--fifth); */
 }
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: "90%";
+}
 
+div.resize img {
+    width:50px;
+    height:50px;
 
+}
