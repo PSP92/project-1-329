@@ -26,9 +26,11 @@ body {
 }
 nav ul li {
   list-style: none;
-  display: none;
+  display: flex;
+  align-items: center;
 }
-/* h1, h2, .p1 , .p2, .p3, .p4, main{ */
+
+
 h2,
 .about {
   font-family: var(--title);

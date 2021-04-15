@@ -23,20 +23,22 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1o8csOi1mPTHanpVcBPrFC2RY8TNk
 })
 
 const final = projects.map((project) => {
-    return `
+    return {`
     <my-card name=${project.name} git=${project.git} live=${project.live} img=${project.img}></my-card>
-    `
+    `}
 })
  console.log(final)
-const $section =$("section")
-$section.html(final.join(""))
+// const $section =$("section")
+// $section.html(final.join(""))
+
+
  /////////////////////////////////////////////////
     // jQuery to render your projects below
     /////////////////////////////////////////////////
     /////////////////////////////////////////////////
     ////////////////////////////////////////////////
 //.catch in case of an error
-.catch((error) => {
-    console.error(error)
-})
+// .catch((error) => {
+//     console.error(error)
+// })
 
