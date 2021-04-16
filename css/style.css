@@ -22,8 +22,8 @@ h1 {
   }
   ul.list {
       list-style: none;
-      display: flex;
-      align-items: center;
+  flex-direction: initial;
+     
   }
   ul.list a:hover{
       background-color: var(--third);
@@ -31,6 +31,9 @@ h1 {
   }
   ul.list a{
       color: var(--fifth);
+      margin: 5px;
+      padding: 5px;
+     
   }
   div.resize img {
     width: 80px;
@@ -49,6 +52,7 @@ h1 {
   }
   header nav #hambo{
       display: none;
+      
   }
  
  h2,
@@ -59,6 +63,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 } 
 
  .aboutMe {
@@ -92,14 +97,16 @@ section {
     display: flex;
     justify-content: center;
 }
-/* footer {
+footer {
   display: flex;
   justify-content: center;
   align-content: flex-end;
-  /* background-color: #BFB9BD ; */ 
-  /* padding-top: 145px;
-    margin: 145px;
-}
+  background-color: #BFB9BD ; 
+  padding-top: 25px;
+    margin: 145px; 
+    width: 100%;
+} 
+
 div.contact {
   background-color: #bfb9bd;
   
@@ -109,7 +116,7 @@ form {
   display: flex;
   justify-content: space-around;
   width: auto;
-  padding: 150px;
-  margin: 125px;
+  /* padding: 150px;
+  margin: 125px; */
 }
  

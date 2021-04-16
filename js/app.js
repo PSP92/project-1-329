@@ -8,7 +8,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1n0dTA2P-SOkQh1locz5_FyPFAG33
 
 //.then for when the data when arrives run this function
 .then((data) => {
-    console.log(data)
+
     //Map over the data, generate simpler data
     const projects = data.feed.entry.map((item) => {
         return {
@@ -21,13 +21,13 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1n0dTA2P-SOkQh1locz5_FyPFAG33
     })
     
 
-console.log(projects)
+
 const final = projects.map((project) => {
     return `
     <my-card name=${project.name} git=${project.git} live=${project.live} img=${project.img}></my-card>
     `
 })
- console.log(final)
+
 const $section =$("section")
 $section.html(final.join(""))
 })
@@ -41,3 +41,18 @@ $section.html(final.join(""))
     .catch((error) => {
         console.log(error);
     })
+
+
+    // HAMBOOGIE MENU
+
+    const $hambo = $("#hambo")
+    const $navbar = $("#navbar")
+
+    $hambo.on("click",(event) => {
+        if ($navbar.css("display") === "flex"){
+            navbar.css("display", "none")
+        } else {
+            navbar.css("display", "flex")
+        }
+          
+        })
