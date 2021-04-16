@@ -46,13 +46,14 @@ $section.html(final.join(""))
     // HAMBOOGIE MENU
 
     const $hambo = $("#hambo")
-    const $navbar = $("#navbar")
-
+    const $bar = $("#bar"); {
+    let $bar = bar
+    }
     $hambo.on("click",(event) => {
-        if ($navbar.css("display") === "flex"){
-            navbar.css("display", "none")
+        if ($bar.css("display") === "flex"){
+            $bar.css("display", "none")
         } else {
-            navbar.css("display", "flex")
+            $bar.css("display", "flex")
         }
           
         })
