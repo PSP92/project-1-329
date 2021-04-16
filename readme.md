@@ -98,26 +98,23 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Hamburger | H | 1hr | 2hr |
+| Project Previews | H | 3hr | 3hr |
+| Regular Nav | H | 1hr | 2.5hr |  
+| Adding Form | H | 1.5hr|  2hr | 
+| Other sections and flex| M | 3hr | 4hr|
+| Working with API | H | 3hrs|  3hr | 
+| Responsive | H | 3hr | hr | 3hr |
+| Social Media Icons | L | 1hr |  1hr |
+| Total | H | 15.5hrs| 20.5hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Project Hover | L | 3hr | 3hr |
+| css styling | L | 3hr | 4hr |
+| Make icons | L | 1hr | 2hr |
+| Total | H | 7hrs| 9hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 

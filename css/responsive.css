@@ -8,8 +8,16 @@
     header nav #hambo{
         display: block;
     }
-
-
+form {
+    display: none;
+}
+footer{
+    display: none;
+}
+a.fab.fa-twitter, a.fab.fa-github-square, a.fab.fa-youtube, a.fab.fa-facebook{
+    display: none;
+}
+}
     /*tablet*/
 @media screen and (min-width:426px) and (max-width:1439) {
    ul.list{
@@ -18,8 +26,9 @@
    header nav #hambo{
     display: none;
 }
+
  }
-}
+
 
 
 /*desktop */
