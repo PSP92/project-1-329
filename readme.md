@@ -138,3 +138,15 @@ function reverse(string) {
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object
+
+
+
+index.html:142 Uncaught TypeError: Cannot read property 'addEventListener' of null
+    at index.html:142
+
+Added it in the index when it should have been in the webcomponents list
+
+app.js:25 Uncaught ReferenceError: projects is not defined
+    at app.js:25
+
+Had the wrong names in my web components had to go through each line and found the wrong names
