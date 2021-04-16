@@ -62,3 +62,33 @@ var form = document.getElementById("my-form");
       });
     }
     form.addEventListener("submit", handleSubmit)
+// USED THIS CODE FROM FORMSPREE
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", { 
+        action: "https://formspree.io/f/xoqyvqkn",
+        title: "Contact Me",
+        fields: [
+          { 
+            type: "email", 
+            label: "Email:", 
+            name: "email",
+            required: true,
+            placeholder: "your@email.com"
+          },
+          {
+            type: "textarea",
+            label: "Message:",
+            name: "message",
+            placeholder: "How can I help you today?",
+          },
+          { type: "submit" }      
+        ],
+        styles: {
+          title: {
+            backgroundColor: "#D7D0E1"
+          },
+          button: {
+            backgroundColor: " #434655"
+          }
+        }
+      });

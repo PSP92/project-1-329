@@ -4,34 +4,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root {
-  --title: "Sintony", sans-serif;
-  --first: #e2eaee; /*Dove White */
-  --second: #c1c2d7; /*Foxglove*/
-  --third: #bfb9bd; /*Standing Ovation*/
-  --fourth: #d7d0e1; /*Fanciful*/
-  --fifth: #434655;
+/* :root {
+  --title: "Sintony", sans-serif; */
+  /* --first: #e2eaee; Dove White */
+  /* --second: #c1c2d7; Foxglove */
+  /* --third: #bfb9bd; Standing Ovation */
+  /* --fourth: #d7d0e1; Fanciful */
+  /* --fifth: #434655;
 }
-header nav {
-  display: flex;
-  justify-content: space-between;
-  color: var(--fifth);
-  background-color: var(--second);
-  padding: 12px;
-  margin: 7px auto;
-}
-
-body {
-  background-color: var(--first);
-}
-nav ul li {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
+/ */
 
 
-h2,
+/* h2,
 .about {
   font-family: var(--title);
   font-weight: bolder;
@@ -47,8 +31,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   color: #434655;
-}
-.aboutMe {
+} */
+/* .aboutMe {
   background-image: url(https://media.wired.com/photos/5e6bfb4fb836a60008b8122e/master/w_2560%2Cc_limit/photo_space_catharsis_4_hs-2015-02-a-hires.jpg);
   background-size: auto;
   overflow: hidden;
@@ -61,37 +45,36 @@ div h2 {
 }
 footer {
   padding-top: 58px;
-}
+} */
 /* MAIN STYLES */
-img {
+/* img {
   width: 300px;
   height: 200px;
-  overflow: hidden;
+  overflow: hidden; */
   /* border-style: 5px solid var(--fifth); */
-}
-section {
+/* } */
+/* section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   width: "90%";
   background-color: "";
-}
+} */
 
-div.resize img {
+/* div.resize img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: 2px solid var(--fifth);
-}
+} */
 
-footer {
+/* footer {
   display: flex;
   justify-content: center;
   align-content: flex-end;
-  /* background-color: #BFB9BD ; */
-  /* margin: 50px; */
+  /* background-color: #BFB9BD ; */ 
   /* padding-top: 145px;
-    margin: 145px; */
+    margin: 145px;
 }
 div.contact {
   background-color: #bfb9bd;
@@ -102,7 +85,7 @@ form {
   display: flex;
   justify-content: space-around;
   width: auto;
-  /*padding: 150px;
-  margin: 125px; */
+  padding: 150px;
+  margin: 125px;
 }
  
