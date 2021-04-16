@@ -102,9 +102,9 @@ footer {
   justify-content: center;
   align-content: flex-end;
   background-color: #BFB9BD ; 
-  padding-top: 25px;
-    margin: 145px; 
-    width: 100%;
+  margin: 41px;
+ width: 94% auto;
+ color: var(--fifth);
 } 
 
 div.contact {
@@ -114,9 +114,12 @@ div.contact {
 form {
   background-color: #bfb9bd;
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
   width: auto;
-  /* padding: 150px;
-  margin: 125px; */
+  color: var(--fifth);
+  
+}
+button #my-form-button:hover{
+    background-color: var(--third);
 }
  
