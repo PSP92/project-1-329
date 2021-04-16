@@ -127,7 +127,7 @@ a.fab.fa-twitter, a.fab.fa-github-square, a.fab.fa-youtube, a.fab.fa-facebook
  {
     color: var(--fifth);
     display: inline-flexbox;
-    justify-content: space-between;
+    justify-content: center;
 
     
 }
