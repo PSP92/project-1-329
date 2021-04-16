@@ -2,29 +2,36 @@
 
 /*mobile*/
 @media screen and (min-width:0) and (max-width:425px){
-    nav ul li {
-        display:block;
+    ul.list a{
+        display:none;
     }
- /* section {display: none !important;}
-} */
+    header nav #hambo{
+        display: block;
+    }
+
 
     /*tablet*/
 @media screen and (min-width:426px) and (max-width:1439) {
- div.contact {
-     display: none;
-    
+   ul.list{
+       display: block;
+   }
+   header nav #hambo{
+    display: none;
+}
  }
 }
 
 
 /*desktop */
 @media screen and (min-width:1440px) {
-    nav i.fas.fa-bars { 
+    ul.list { 
+        display: block;
+    }
+    header nav #hambo{
         display: none;
     }
 }
 
-}
 
 
 

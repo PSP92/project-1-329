@@ -150,3 +150,5 @@ app.js:25 Uncaught ReferenceError: projects is not defined
     at app.js:25
 
 Had the wrong names in my web components had to go through each line and found the wrong names
+
+my responsive wasn't responding to changes because I didn't link it in the HTMl

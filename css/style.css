@@ -20,15 +20,37 @@ h1 {
     align-items: center;
     color: #434655;
   }
+  ul.list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+  }
+  ul.list a:hover{
+      background-color: var(--third);
+   
+  }
+  ul.list a{
+      color: var(--fifth);
+  }
   div.resize img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     border: 2px solid var(--fifth);
   }
+
   header {
       background-color: var(--second);
+      padding: 15px;
+      margin: 5px auto;
+      display: flex;
+      justify-content: space-between;
+    
   }
+  header nav #hambo{
+      display: none;
+  }
+ 
  h2,
 .about {
   font-family: var(--title);
@@ -64,10 +86,12 @@ section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: "90%";
-  background-color: "";
-} 
-
+  width: 100%;
+}
+::part(body){
+    display: flex;
+    justify-content: center;
+}
 /* footer {
   display: flex;
   justify-content: center;
